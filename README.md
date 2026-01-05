@@ -83,7 +83,7 @@ We're not trying to harm businesses — we're trying to inform users. If your se
 | `alternative_url` | Yes | Link to the alternative |
 | `reason` | Yes | Why users might consider switching |
 | `system_prompt` | Yes | A prompt to replicate functionality |
-| `confidence` | Yes | How confident we are (0-100) |
+| `confidence` | Yes | Confidence score (0-100). Guidelines: High=90+, Medium=60-89, Low=40-59 |
 | `last_updated` | Yes | Date of last verification |
 | `contributor` | No | GitHub username of contributor |
 
