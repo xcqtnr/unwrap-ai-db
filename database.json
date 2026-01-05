@@ -1,0 +1,103 @@
+{
+    "version": "1.0",
+    "sites": {
+        "chatpdf.com": {
+            "name": "ChatPDF",
+            "category": "PDF Analysis",
+            "base_model": "GPT-4",
+            "price_text": "$20/mo",
+            "savings_monthly": 20,
+            "alternative_name": "Google NotebookLM",
+            "alternative_url": "https://notebooklm.google.com/",
+            "reason": "NotebookLM offers unlimited PDF uploads with AI analysis completely free. Users report ChatPDF struggles with complex documents and forgets context after a few messages.",
+            "system_prompt": "I'm uploading a PDF document. Please help me:\n1. Summarize the key points and main arguments\n2. Answer specific questions about the content\n3. Extract important quotes, data, or citations\n\nStart with a brief overview of what this document covers.",
+            "confidence": 95,
+            "last_updated": "2026-01-04",
+            "contributor": "xcqtnr"
+        },
+        "pdf.ai": {
+            "name": "PDF.ai",
+            "category": "PDF Analysis",
+            "base_model": "GPT-4",
+            "price_text": "$15/mo",
+            "savings_monthly": 15,
+            "alternative_name": "Claude",
+            "alternative_url": "https://claude.ai",
+            "reason": "Claude offers free PDF analysis with a more generous context window. PDF.ai has a very limited free tier that quickly runs out.",
+            "system_prompt": "I'll share a PDF with you. Please:\n1. Analyze the document structure and content\n2. Provide a comprehensive summary\n3. Be ready to answer follow-up questions\n\nStart with the main topics covered.",
+            "confidence": 90,
+            "last_updated": "2026-01-04",
+            "contributor": "xcqtnr"
+        },
+        "humata.ai": {
+            "name": "Humata",
+            "category": "PDF Analysis",
+            "base_model": "GPT-4 Turbo",
+            "price_text": "$15/mo",
+            "savings_monthly": 15,
+            "alternative_name": "ChatGPT",
+            "alternative_url": "https://chat.openai.com",
+            "reason": "ChatGPT Plus ($20/mo) includes PDF analysis plus image generation, code interpreter, and more. Or use the free tier for basic document Q&A.",
+            "system_prompt": "Please help me analyze this document. I need:\n- A comprehensive summary of the main points\n- Key takeaways and conclusions\n- Ability to answer follow-up questions about specific sections\n\nStart with the summary.",
+            "confidence": 88,
+            "last_updated": "2026-01-04",
+            "contributor": "xcqtnr"
+        },
+        "askyourpdf.com": {
+            "name": "AskYourPDF",
+            "category": "PDF Analysis",
+            "base_model": "GPT-4",
+            "price_text": "$10/mo",
+            "savings_monthly": 10,
+            "alternative_name": "Google NotebookLM",
+            "alternative_url": "https://notebooklm.google.com/",
+            "reason": "NotebookLM provides similar conversational PDF features for free, with better source grounding and citation linking.",
+            "system_prompt": "I have a PDF document I need help with. Please:\n1. Read and understand the full document\n2. Answer my questions with specific page references when possible\n3. Summarize sections on request\n\nWhat would you like to know about the document?",
+            "confidence": 85,
+            "last_updated": "2026-01-04",
+            "contributor": "xcqtnr"
+        },
+        "jasper.ai": {
+            "name": "Jasper AI",
+            "category": "Writing Assistant",
+            "base_model": "GPT-4",
+            "price_text": "$49/mo",
+            "savings_monthly": 49,
+            "alternative_name": "ChatGPT",
+            "alternative_url": "https://chat.openai.com",
+            "reason": "Jasper is explicitly built on GPT models. ChatGPT Plus at $20/mo gives direct access to the same underlying technology for 60% less. Users report billing issues and generic content quality.",
+            "system_prompt": "You are a marketing copywriter. I need you to write compelling copy for my business. Please:\n1. Ask about my target audience and brand voice\n2. Generate multiple variations of headlines and body copy\n3. Optimize for conversion and engagement\n\nWhat type of content do you need today?",
+            "confidence": 92,
+            "last_updated": "2026-01-04",
+            "contributor": "xcqtnr"
+        },
+        "copy.ai": {
+            "name": "Copy.ai",
+            "category": "Writing Assistant",
+            "base_model": "GPT-3.5/GPT-4",
+            "price_text": "$49/mo",
+            "savings_monthly": 49,
+            "alternative_name": "ChatGPT",
+            "alternative_url": "https://chat.openai.com",
+            "reason": "Copy.ai uses GPT models with a marketing-focused interface. Users report plagiarism issues (up to 18%), grammatical errors, and platform downtime. ChatGPT provides the same core capability directly.",
+            "system_prompt": "Act as an expert copywriter specializing in:\n- Email marketing campaigns\n- Social media posts\n- Landing page copy\n- Ad headlines\n\nI'll describe what I need, and you'll provide multiple creative options. What would you like me to write?",
+            "confidence": 90,
+            "last_updated": "2026-01-04",
+            "contributor": "xcqtnr"
+        },
+        "writesonic.com": {
+            "name": "Writesonic",
+            "category": "Writing Assistant",
+            "base_model": "GPT-4",
+            "price_text": "$19/mo",
+            "savings_monthly": 19,
+            "alternative_name": "Claude",
+            "alternative_url": "https://claude.ai",
+            "reason": "Claude offers superior long-form writing with better coherence. Writesonic's output often requires heavy editing to be unique and SEO-friendly.",
+            "system_prompt": "You are a professional content writer. Help me create:\n- Blog posts and articles\n- Product descriptions\n- Marketing copy\n\nI'll provide the topic and key points. Generate well-structured, engaging content that's ready to publish.",
+            "confidence": 85,
+            "last_updated": "2026-01-04",
+            "contributor": "xcqtnr"
+        }
+    }
+}
